@@ -1,5 +1,9 @@
 # ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks
 
+## Introduction
+
+ThinkGeo is a specialized benchmark designed to evaluate how language model agents handle complex remote sensing tasks through structured tool use and step-by-step reasoning. It features human-curated queries grounded in satellite and aerial imagery across diverse real-world domains such as disaster response, urban planning, and environmental monitoring. Using a ReAct-style interaction loop, ThinkGeo tests both open and closed-source LLMs on over 400 multi-step agentic tasks. The benchmark measures not only final answer correctness but also the accuracy and consistency of tool usage throughout the process. By focusing on spatially grounded, domain-specific challenges, ThinkGeo fills a critical gap left by general-purpose evaluation frameworks.
+
 ## 🚀 Evaluating ThinkGeo
 
 ### Prepare ThinkGeo Dataset
